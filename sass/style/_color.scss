@@ -1,0 +1,26 @@
+@use 'variables' as a;
+
+
+.color {
+  &__sed {
+    background: a.$color-bg-sedan;
+  }
+  &__suv {
+    background: a.$color-bg-suv;
+  }
+  &__lux {
+    background: a.$color-bg-luxury;
+  }
+}
+
+.btn {
+  &__sed {
+    color: a.$color-bg-sedan;
+  }
+  &__suv {
+    color: a.$color-bg-suv;
+  }
+  &__lux {
+    color: a.$color-bg-luxury;
+  }
+}

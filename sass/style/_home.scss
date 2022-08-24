@@ -1,0 +1,50 @@
+@use 'variables' as a;
+
+.body {
+  position: relative;
+  height: 100vh;
+}
+
+.preview {
+  width: 64.16%;
+  height: 62.25%;
+  background: a.$color-bg;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  &__card {
+    display: grid;
+    padding: 4.5rem;
+  }
+  &__title {
+    font-size: a.$ff-700;
+    text-transform: uppercase;
+    color: a.$color-main;
+    font-family: a.$ff-main;
+  }
+
+  &__content {
+    font-size: a.$ff-400;
+    color: a.$color-sub;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .preview {
+    width: calc(100% - 4rem);
+  }
+}
+@media screen and (max-width: 900px) {
+  .preview {
+    grid-template-columns: 1fr;
+    inset: 0;
+    transform: translate(0);
+    margin: 3rem auto;
+    &__card {
+      padding: 2rem;
+      gap: 2rem;
+    }
+  }
+}
