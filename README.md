@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Cruise Ride - GITHUB](https://github.com/Samjolas/cruise_ride)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://samjolas.github.io/cruise_ride)
 
 ## My process
 - Evaluate the design 
